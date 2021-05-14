@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8d93ab;
+    display: flex;
+    font-family: "POppins",sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+input{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    font-family: inherit;
+    padding: 1rem;
+    min-width: 300px;
+}
+input:focus{
+    outline-color: none;
+}
+.weather{
+    font-size: 2rem;
+    text-align: center;
+}
+.weather h2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
